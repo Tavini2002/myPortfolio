@@ -554,12 +554,28 @@ video {
   display: none;
 }
 
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  box-sizing: border-box;
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background:wheat;
+  color:rgb(42, 34, 34);
+}
+
+li{
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
 }
